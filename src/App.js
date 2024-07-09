@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Header from './componente/Header';
+import Header from './componentes/Header';
 // NO colocar la extension js
 /*traeme el componente Header desde la ruta para llegar al JS*/
- import Nav from './componente/Nav';
-import Footer from './componente/Footer';
+import Nav from './componentes/Nav';
+import Footer from './componentes/Footer';
 import Homepage from './pages/Homepage';
 import Ejemplo1 from './pages/Ejemplo1';
 /*importame el componete Homepage del archivo Hompage*/
@@ -16,9 +16,9 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-            <Route path='/' element={<Homepage />} />
-            <Route path='/ejemplo1' element={<Ejemplo1 />} />
-    </Routes>
+          <Route path='/' element={<Homepage />} />
+          <Route path='/ejemplo1' element={<Ejemplo1 />} />
+        </Routes>
       </BrowserRouter>
       <Footer />
 
