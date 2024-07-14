@@ -9,7 +9,7 @@ const EjemploProps2 = props => {
     const { elementos } = props;
 
     return (
-        <ul>{elementos.map(elemento => <li key={elemento}>{elemento} </li>)}</ul>
+        <ul>{elementos.map(elemento => <li key={elemento} > {elemento} </li>)}</ul>
             )
 }
 
