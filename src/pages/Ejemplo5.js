@@ -39,8 +39,8 @@ const DatosApi = (props) => {
                                     <img src= {personaje.image} alt={personaje.name} />
                                 </div>
                                 <div className="datos">
-                                    <h6>Especie : HUMANO o NO</h6>
-                                    <h6>Vivo: si o no</h6>
+                                    <h6>Especie : {personaje.specie === 'Human' ? 'Humano' : 'Extrarrestre'}</h6>
+                                    <h6>Estado: {personaje.status === 'Alive' ? 'Vivo' : 'Muerto'}</h6>
 
                                     {/*operaador ternario -  */}
                                 </div>

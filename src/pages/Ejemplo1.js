@@ -20,7 +20,8 @@ const Ejemplo1 = (props) => {
             {/*listar elementos (array)*/}
             <EjemploProps2 elementos={frutas}/>
            <EjemploProps2 elementos={equipos}/>
-           {/*multiples propiedades - destructuring*/}
+           {/*multiples propiedades - 
+           destructuring*/}
            <EjemploProps3 titulo='Hola soy el titulo' subtitulo= 'subtitulo bien grande!!' cuerpo= 'Hola el contenido de esta noticia.' />
            {/*funcion*/}
            <EjemploProps4 cambiarvalor={mostrarValor}/>
